@@ -75,16 +75,6 @@ checkwget() {
 	fi
 }
 
-checktar() {
-	echo "正在安装 tar"
-        if [ "${release}" == "centos" ]; then
-            yum update > /dev/null 2>&1
-            yum -y install tar > /dev/null 2>&1
-        else
-            apt-get update > /dev/null 2>&1
-            apt-get -y install tar > /dev/null 2>&1
-        fi
-}
 
 checkspeedtest() {
 	if  [ ! -e './speedtest-cli/speedtest' ]; then
