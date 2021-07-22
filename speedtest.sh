@@ -124,7 +124,7 @@ speed_test(){
 
 preinfo() {
 	echo "———————————————————SuperSpeed 全面测速版——————————————————"
-	echo "       bash <(curl -Lso- http://yun.789888.xyz/speedtest.sh)"
+	echo "       bash <(curl -Lso- https://git.io/Jlkmw)"
 	echo "       全部节点列表:  https://git.io/superspeedList"
 	echo "       节点更新: 2020/04/09  | 脚本更新: 2021/07/22"
 	echo "——————————————————————————————————————————————————————————"
